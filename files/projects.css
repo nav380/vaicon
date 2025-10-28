@@ -1,0 +1,339 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'OswaldBold';
+    src: url('fonts/OswaldBold.eot');
+    src: url('../fonts/OswaldBold.eot') format('embedded-opentype'),
+         url('../fonts/OswaldBold.woff2') format('woff2'),
+         url('../fonts/OswaldBold.woff') format('woff'),
+         url('../fonts/OswaldBold.ttf') format('truetype'),
+         url('../fonts/OswaldBold.svg#OswaldBold') format('svg');
+}
+@font-face {
+    font-family: 'OswaldRegular';
+    src: url('../fonts/OswaldRegular.eot');
+    src: url('../fonts/OswaldRegular.eot') format('embedded-opentype'),
+         url('../fonts/OswaldRegular.woff2') format('woff2'),
+         url('../fonts/OswaldRegular.woff') format('woff'),
+         url('../fonts/OswaldRegular.ttf') format('truetype'),
+         url('../fonts/OswaldRegular.svg#OswaldRegular') format('svg');
+}
+@font-face {
+    font-family: 'PoppinsBold';
+    src: url('../fonts/PoppinsBold.eot');
+    src: url('../fonts/PoppinsBold.eot') format('embedded-opentype'),
+         url('../fonts/PoppinsBold.woff2') format('woff2'),
+         url('../fonts/PoppinsBold.woff') format('woff'),
+         url('../fonts/PoppinsBold.ttf') format('truetype'),
+         url('../fonts/PoppinsBold.svg#PoppinsBold') format('svg');
+}
+@font-face {
+    font-family: 'PoppinsRegular';
+    src: url('../fonts/PoppinsRegular.eot');
+    src: url('../fonts/PoppinsRegular.eot') format('embedded-opentype'),
+         url('../fonts/PoppinsRegular.woff2') format('woff2'),
+         url('../fonts/PoppinsRegular.woff') format('woff'),
+         url('../fonts/PoppinsRegular.ttf') format('truetype'),
+         url('../fonts/PoppinsRegular.svg#PoppinsRegular') format('svg');
+}
+@font-face {
+    font-family: 'Apple_Chancery';
+    src: url('../fonts/Apple_Chancery.eot');
+    src: url('../fonts/Apple_Chancery.eot') format('embedded-opentype'),
+         url('../fonts/Apple_Chancery.woff2') format('woff2'),
+         url('../fonts/Apple_Chancery.woff') format('woff'),
+         url('../fonts/Apple_Chancery.ttf') format('truetype'),
+         url('../fonts/Apple_Chancery.svg#Apple_Chancery') format('svg');
+         
+}
+body {font-family:PoppinsRegular, Arial, Tahoma; font-size:15px; color:#333;}
+/* Header Styles */
+.logoAlign {position:absolute; z-index:1;}
+.logoAlign2 {position:absolute; z-index:1; margin:5% 0 0 -35%;}
+.mainNavBg {background:#1e6b75;}
+.contactBg {background:#7dc8ad; min-height:47px; overflow:hidden;}
+.mobileEmailHolder {float:right;padding-right:13%}
+.socialIconHolder {float:left; margin-left:270px;}
+.txtMobileEmail {font-family:Calibri; font-size:18px; font-weight:bold; color:#1e6b74; margin:10px 0 0 0;}
+.socialIconMargin {margin:15px 10px 0 10px;}
+
+/* Content Area Styles */
+.registerBg {background:#86c440; border-bottom:3px solid #7bb43b;}
+.txt38WhiteRegular {font-family:Calibri; font-size:30px; color:#fff; margin:8px 0; display:inline-block;}
+.txt22WhiteBold {font-family:Calibri; font-size:22px; color:#fff; margin:8px 0; display:inline-block;}
+.txt29WhiteBold {font-family:Calibri; font-size:29px; color:#fff; margin:8px 0; display:inline-block;}
+.btnRegisterNow {background:#4c823c; display:block; text-align:center; font-family:Calibri; font-size:24px; font-weight:bold; color:#fff; text-transform:uppercase; float:right; padding:15px 30px;}
+.btnRegisterNow:hover {background:#1e6b74; text-decoration:none; color:#fff;}
+.welcomeBg {background:url(welcome-bg.gif) no-repeat center top; background-size:100%; padding:70px 15px;}
+.head73WhiteBold {font-family:Calibri; font-weight:bold; font-size:86px; color:#fff; margin:70px 0 0 0;}
+.txt14White {font-size:14px; line-height:26px; color:#fff; text-align:justify;}
+.keyDatesBg {background:url(slanding1.png) no-repeat top center; margin:50px 0 0 0;}
+.keyDatesInner {background:#edf2f5; padding:40px; margin:30px 30px 0 30px;}
+.head46DarkGreenBold {font-family:Calibri; font-weight:bold; font-size:46px; color:#1e6b74; text-align:center; margin:0 0 40px 0;}
+.head46GreenBold {font-family:Calibri; font-weight:bold; font-size:46px; color:#4c823c; text-align:center; margin:0 0 40px 0;}
+.listKeyDates {margin:0; padding:0;}
+.listKeyDates li {list-style-type:none; background:url(bullet-mike.png) no-repeat left top; margin-bottom:20px; padding-left:40px; font-size:15px; color:#333;}
+.txt15DarkGReenBold {font-family:Calibri; font-weight:bold; font-size:15px; color:#1e6b74; text-transform:uppercase; display:block;}
+.registerNowBg {background:url(slanding2.png) no-repeat top center; margin:70px 0 0 0;}
+.registerNowInner {background:#edf2f5; padding:40px; margin:30px 30px 0 30px;}
+.head23BlackRegular {font-family:Calibri; font-size:23px; color:#333; text-align:center; margin-bottom:20px;}
+.btnGreenFullWidth {width:100%; background:#4c823c; font-family:Calibri; font-size:20px; color:#fff; text-transform:uppercase; padding:10px; border:none; margin:20px 0;}
+.btnGreenFullWidth:hover {background:#1e6b74;}
+.head46GreenBold2 {font-family:Calibri; font-weight:bold; font-size:46px; color:#4c823c; text-align:center; margin:0 0 30px 0;}
+.txt18GreenBold {font-family:Calibri; font-weight:bold; font-size:18px; color:#4c823c;}
+.countDownBg {background:#7dc8ad;}
+.scientificHolder {background:#73baa1; text-align:center; font-family:Calibri; font-weight:bold; font-size:24px; color:#fff; text-transform:uppercase; padding:30px 0;}
+.imgIconMargin {margin-bottom:20px;}
+.ebrochureHolder {background:#6aad95; text-align:center; font-family:Calibri; font-weight:bold; font-size:24px; color:#fff; text-transform:uppercase; padding:30px 0;}
+.scientificHolder:hover, .ebrochureHolder:hover {background:#1e6b74;}
+.countDownHolder {text-align:center; font-family:Calibri; font-weight:bold; font-size:24px; color:#fff; text-transform:uppercase; margin:20px 0;}
+.countDown {font-family:Calibri; font-weight:bold; font-size:15px; color:#fff; text-transform:uppercase; text-align:center;}
+.txt28 {font-size:28px;}
+.conferenceUpdateBg {background:url(conference-bg.gif) no-repeat top center; background-size:100%; padding:50px 0;}
+.head46WhiteBold {font-family:Calibri; font-weight:bold; font-size:46px; color:#fff; text-transform:uppercase; text-align:center;}
+.conUpdateBox {background:url(slanding3.png) no-repeat top center; margin:70px 0 0 0; overflow:hidden;}
+.conUpdateBoxInner {background:#edf2f5; margin:20px 20px 0 20px;}
+.conUpdateBoxHead {background:#1b636b; padding:40px; text-align:center; font-family:Calibri; font-weight:bold; font-size:22px; color:#fff; text-transform:uppercase;}
+.txt46 {font-size:46px;}
+.conUpdateBoxSubHead {font-family:Calibri; font-weight:bold; font-size:22px; color:#1e6b74;}
+.head22BlueBold {font-family:Calibri; font-weight:bold; font-size:22px; line-height:30px; text-align:center; color:#1e6b74; margin-bottom:10px;padding:10px;}
+.conUpdateText {font-size:14px; text-align:center; display:block; padding:20px;  line-height:26px;}
+.lnkReadMore {display:block; width:100%; padding:10px; font-family:Calibri; font-weight:bold; font-size:20px; color:#fff; background:#7dc8ad; text-align:center; text-transform:uppercase;}
+.lnkReadMore:hover {text-decoration:none; color:#fff; background:#1b636b;}
+.lnkReadMore2 {font-family:Calibri; font-weight:bold; font-size:20px; color:#fff; text-transform:uppercase;}
+.lnkReadMore2:hover {text-decoration:none;}
+.lnkViewMore {display:block; width:100%; padding:10px; font-family:Calibri; font-weight:bold; font-size:20px; color:#fff; background:#7dc8ad; text-align:center; text-transform:uppercase; margin:30px 0;}
+.lnkViewMore:hover {text-decoration:none; color:#fff; background:#1b636b;}
+.contactBottomBg {background:url(contact-us-bg.gif) #86c440 no-repeat center top; background-size:100%; padding:70px 15px;}
+.head20WhiteBold {font-family:Calibri; font-weight:bold; font-size:20px; color:#fff; text-align:center; margin-top:40px;}
+.head23WhiteBold {font-family:Calibri; font-weight:bold; font-size:23px; color:#fff; text-align:center;}
+.head18WhiteBold {font-family:Calibri; font-weight:bold; font-size:18px; color:#fff;}
+.bottomBox {border-right:1px solid #fff; text-align:center; margin-top:40px; min-height:180px; }
+.bottomBoxLast { text-align:center; margin-top:40px; min-height:180px; }
+.txtWhite {color:#fff;}
+.txtCredits {font-size:13px; color:#b4cd98; text-align:center;}
+.creditsBg {background:#5a832c; padding:40px 15px 30px 15px;}
+.lnkCredits {color:#b4cd98;}
+.lnkCredits:hover {color:#fff; text-decoration:none;}
+.readMoreArrow {margin:-10px 0 0 0;}
+
+/* Table format - Added by Rajeev*/
+.tableHead {font-family:Calibri; font-weight:bold; font-size:30px; color:#333; text-transform:uppercase; margin:20px 0 20px 0; text-align:center;}
+.dataTable1 {font-family:UniversCondensed, Arial, Tahoma; font-size:16px;}
+.dataTable1 .col1 {color:#333; background:#ededed; padding:8px; vertical-align:middle; border-bottom:1px solid #fff;}
+.dataTable1 .col2 {color:#fff; background:#257A84; padding:8px; text-align:center; vertical-align:middle; border-bottom:1px solid #fff;}
+.dataTable1 .col3 {color:#fff; background:#216C75; padding:8px; text-align:center; vertical-align:middle; border-bottom:1px solid #fff;}
+.dataTable1 .col4 {color:#fff; background:#1B636B; padding:8px; text-align:center; vertical-align:middle; border-bottom:1px solid #fff;}
+.dataTable1 .col5 {color:#fff; background:#175b62; padding:8px; text-align:center; vertical-align:middle; border-bottom:1px solid #fff;}
+.paperPresent > p {color:#ffffff!important; padding:10px;}
+
+/*Inner Pages*/
+.bannerHolder {padding:0;}
+.pageHead {font-family:Calibri; font-size:38px; color:#fff; margin:8px 0; display:inline-block; text-transform:uppercase; float:left;}
+.listBreadCrumb {margin:20px 0 0 50px; padding:0; float:left;}
+.listBreadCrumb li{font-size:14px; color:#333; text-transform:uppercase; font-family:Calibri; list-style-type:none; display:inline-block;}
+.listBreadCrumb li a{color:#333;}
+.listBreadCrumb li a:hover{color:#fff; text-decoration:none;}
+.listBreadCrumb li.currentPage{color:#fff; font-size:18px;}
+.ashBorderContentHolder {border:5px solid #dedede; padding:30px; overflow:hidden; }
+.ashBorderContentHolder p {font-size:14px; text-align:justify; margin:0 0 30px 0; color:#333; line-height:26px;}
+.contentArea {padding:25px 0;}
+.head22BlackBold {font-family:Calibri; font-size:22px; color:#333; margin:0 0 30px 0; text-transform:uppercase;}
+.darkBorderBox {background:url(slanding1.png) no-repeat top center; margin:0 0 60px 0; overflow:hidden;}
+.darkBorderBoxInner {background:#edf2f5; margin:30px 30px 0 30px;}
+.lnkSubMenu {display:block; background:#edf2f5; font-size:18px; font-family:Calibri; text-transform:uppercase; text-align:left; padding:20px 10px; color:#333;}
+.lnkSubMenu:hover {background:#257a84; color:#fff; text-decoration:none; }
+.lnkSubMenu.active {background:#7dc8ad; color:#fff;}
+.head36BlackBold {font-family:Calibri; font-weight:bold; font-size:36px; color:#333; text-align:center; text-transform:uppercase; margin:60px 0 -40px 0;}
+.lnkViewmore2 {display:block; text-align:center; font-family:Calibri; font-weight:bold; font-size:20px; color:#333; text-transform:uppercase; padding:15px 10px; background:#d4d4d4; margin-top:20px;}
+.lnkViewmore2:hover {background:#257a84; color:#fff; text-decoration:none; }
+.addressBox {background:#1e6b74; padding:70px 70px 0 70px; min-height:380px; text-align:center;}
+.sddressBoxImg {background:url(../img/address-box-img.jpg) center center no-repeat; background-size:cover; min-height:380px;}
+.callBox {background:#7dc8ad; padding:70px 70px 0 70px; min-height:380px; text-align:center;}
+.txtWhite {color:#fff;}
+.mailBoxImg {background:url(mail-box-img.jpg) center center no-repeat; background-size:cover; min-height:380px;}
+.mailBox {background:#86c440; padding:70px 70px 0 70px; min-height:380px; text-align:center;}
+.phoneBoxImg {background:url(../img/phonel-box-img.jpg) center center no-repeat; background-size:cover; min-height:380px;}
+.head53BlackBold {font-family:Calibri; font-weight:bold; font-size:53px; color:#333; text-transform:uppercase; margin:60px 0 40px 0; text-align:center;}
+.formFieldName {width:100%; padding:20px; font-size:14px; color:#6b767d; background:url(../img/name.png) #edf2f5 no-repeat center right; margin-bottom:10px; border:none;}
+.formFieldPhone {width:100%; padding:20px; font-size:14px; color:#6b767d; background:url(../img/phone3.png) #edf2f5 no-repeat center right; margin-bottom:10px; border:none;}
+.formFieldEmail {width:100%; padding:20px; font-size:14px; color:#6b767d; background:url(../img/email2.png) #edf2f5 no-repeat center right; margin-bottom:10px; border:none;}
+.formFieldSubject {width:100%; padding:20px; font-size:14px; color:#6b767d; background:url(../img/subjects.png) #edf2f5 no-repeat center right; margin-bottom:10px; border:none;}
+.formFieldMessage {width:100%; padding:20px; font-size:14px; color:#6b767d; background:url(../img/message.png) #edf2f5 no-repeat center right; margin-bottom:10px; border:none;}
+.formFieldCaptcha {width:calc(100% - 207px); padding:20px; font-size:14px; color:#6b767d; background:#edf2f5 no-repeat center right; margin-bottom:10px; border:none;}
+.refresh {margin:0 40px;}
+.btnSend {width:100%; padding:10px; margin:10px 0 10px 0; background:#1e6b74; font-family:Calibri; font-weight:bold; font-size:24px; color:#fff; text-transform:uppercase; border:3px solid #1e6b74;}
+.btnSend:hover {background:#333; color:#fff; }
+.btnReset {width:100%; padding:10px; margin:10px 0 10px 0; background:#fff; font-family:Calibri; font-weight:bold; font-size:24px; color:#1e6b74; text-transform:uppercase; border:3px solid #1e6b74;}
+.btnReset:hover {background:#333; color:#fff; }
+.nameHolder {background:#edf2f5; padding:20px 20px 10px 20px; text-align:center; }
+.nameHolder p {font-family:Calibri; font-weight:bold; font-size:22px; color:#1e6b74; margin:20px 0; text-align:center;}
+.ashBorderContentHolder2 {border:5px solid #dedede; padding:15px 15px; overflow:hidden; }
+.desigHolder {background:#1e6b74; padding:20px; font-family:Calibri; font-weight:bold; font-size:18px; color:#fff; text-transform:uppercase; text-align:center; margin-bottom:30px;}
+.lnkAtractions {width:100%; float:left; display:block; font-family:Calibri; font-weight:bold; font-size:21px; color:#1e6b74!important; background:#edf2f5!important; text-transform:uppercase; text-align:center; padding:10px;}
+.lnkAtractions:hover {color:#fff; background:#1e6b74; text-decoration:none;}
+.head24GreenBold {font-family:Calibri; font-weight:bold; font-size:24px; color:#1e6b74; text-transform:uppercase; margin:30px 0;}
+
+#mobilemenu{display:none;}
+#tabs{border:none}
+#tabs > ul{background-color:#fff;border:none;padding:0}
+#tabs > ul > li{display:-moz-inline-stack;width:49%}
+
+.contentArea li {list-style-type:none; margin-bottom:10px;background:url(bullet_picture.png) no-repeat left 5px; padding-left:30px;}
+.contentArea li > ul >li {list-style-type:none; margin-bottom:10px;background:url(bullet_orange.png)  no-repeat left 5px; padding-left:30px;}
+
+.sideMenu {
+	cursor:pointer;text-transform:uppercase;color:#333;font-family:Calibri; display:block;
+    font-size: 17px;
+    padding: 7px 9px 7px 30px;
+	background:url(bullet_orange.png) no-repeat left 12px; padding-left:30px;
+}
+.sideMenu:hover{
+    cursor:pointer;text-transform:uppercase;color:#fff;text-decoration:none;
+	background:#257a84 url(bullet_orange.png)  no-repeat left 5px; padding-left:30px;
+}
+
+#tabs li{background:none}
+.conUpdateBoxInner p{padding:10px;}
+
+#hoteltxtarea h1 {
+    color: #1E6B74;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+#hoteltxtarea1 h1 {
+    color: #1E6B74;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 25px;
+    line-height: 18px;
+    margin: 0;
+    padding: 0;
+	text-transform:capitalize;
+}
+
+#imagegallery {
+    margin: 12px 0 0;
+    padding: 0;
+    width: 287px;
+}
+.gallery-inline {
+    display: inline-block;
+}
+.part_txt {
+    float: left;
+    margin: 12px 0 0;
+    padding: 0;
+    width: 268px;
+}
+#view {
+    color: #0b7ab6;
+    float: right;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    margin: 10px 0 0;
+    padding: 0;
+    text-decoration: none;
+    width: 85px;
+}
+
+.work_topic{display:none}
+.cme_topic{display:none}
+.telehelp{
+  border:1px solid #7DC8AD;
+  border-collapse: collapse;
+}
+.telehelp tr th{
+  border:1px solid #7DC8AD;
+  border-collapse: collapse;
+  padding:8px;
+}
+.telehelp tr td{
+  border:1px solid #7DC8AD;
+  border-collapse: collapse;
+  padding:5px;
+}
+.bx1{
+  background-color:#BA7894;
+  color:#fff;
+}
+.bx2{
+  background-color:#785B77;
+  color:#fff;
+}
+.bx3{
+  background-color:#66929B;
+  color:#fff;
+}
+.bx4{
+  background-color:#98C2C0;
+  color:#fff;
+}
+
+@media (max-width: 1200px) {
+.head73WhiteBold {font-size:60px; margin:0;}
+.keyDatesInner {padding:20px; margin:30px 15px;}
+.registerNowInner {padding:20px; margin:30px 15px;}
+.welcomeBg {background:#86c440;}
+.conferenceUpdateBg {background:#1e6b74;}
+.conUpdateBoxInner {margin:30px 15px;}
+.contactBottomBg {background:#86c440;}
+.logoAlign2 {margin:13% 0 0 -37%;}
+}
+
+@media (max-width: 992px) {
+.head73WhiteBold {font-size:40px;}
+.scientificHolder, .ebrochureHolder {font-size:16px;}
+.logoAlign2 {margin:13% 0 0 -64%}
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+.keyDatesBg {background:none;}
+.registerNowBg {background:none;}
+.conUpdateBox {background:none;}
+.darkBorderBox {background:none;}
+.bottomBox {border-right:none; border-bottom:1px solid #fff;}
+.logoAlign2 {display:none;}
+}
+
+@media (max-width: 522px) {
+.pageHead {float:none;}
+.listBreadCrumb {float:none; margin:0 0 10px 0; display:block;}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+.formFieldCaptcha {width:100%;}
+.lnkAtractions {font-size:16px;}
+.btnRegisterNow{
+font size 19px;
+}
+}
+
+@media (max-width: 1280px) {
+.logoAlign2 {position:absolute; z-index:1; margin:5% 0 0 -45%;height:137px}
+}
+
+@media (max-width: 980px) {
+.logoAlign2 {position:absolute; z-index:1; margin:5% 0 0 -85%;height:137px}
+}
+
+@media (max-width: 800px) {
+.logoAlign2 {position:absolute; z-index:1; margin:5% 0 0 -108%;height:118px}
+}

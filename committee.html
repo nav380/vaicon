@@ -26,6 +26,52 @@
   <link rel="stylesheet" href="files/projects.css">
   <link rel="stylesheet" type="text/css" href="files/accor.css">
   <link href="files/mb-comingsoon-iceberg.css" rel="stylesheet">
+  <style>
+    .committee-grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1rem;
+      justify-items: center;
+      text-align: center;
+    }
+
+    @media (min-width: 640px) {
+      .committee-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (min-width: 768px) {
+      .committee-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    .committee-grid img {
+      width: 126px;
+      height: 151px;
+      border-radius: 10px;
+    }
+  </style>
+  <style>
+    .section-header {
+      background-color: #86c43f;
+      /* Change color as needed */
+      padding: 15px 0;
+      text-align: center;
+      border-radius: 6px;
+      margin: 30px 0;
+    }
+
+    .section-header h2 {
+      color: #fff;
+      font-size: 1.6rem;
+      font-weight: 700;
+      margin: 0;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+  </style>
 </head>
 
 <body topmargin="0" marginwidth="0" marginheight="0" leftmargin="0" bottommargin="0">
